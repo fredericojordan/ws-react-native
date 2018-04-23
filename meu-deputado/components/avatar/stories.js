@@ -12,6 +12,6 @@ storiesOf('Avatar', module)
     ))
     .add('Fit to container', () => (
         <View style={{width: 200, height: 200}}>
-            <Avatar source={avartarUrl} />
+            <Avatar source={avatarUrl} />
         </View>
     ))
