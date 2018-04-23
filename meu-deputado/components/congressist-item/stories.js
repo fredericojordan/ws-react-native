@@ -4,15 +4,15 @@ import { storiesOf } from '@storybook/react-native'
 
 import CongressistItem from '.'
 
-const avatarUrl = 'https://mainlynorfolk.info/folk/images/largerec/songsofashropshirefarmworker_12t150.jpg'
+const avatarUrl = 'http://lorempixel.com/200/200'
 
 storiesOf('CongressistItem', module)
     .add('Default', () => (
         <View style={styles.container}>
             <CongressistItem congressist={{
                 avatarUrl: avatarUrl,
-                name: 'Fred',
-                party: 'OH YEA',
+                name: 'Frederico Jordan',
+                party: 'My Party',
             }}/>
         </View>
     ))

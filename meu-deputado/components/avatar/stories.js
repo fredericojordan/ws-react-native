@@ -4,12 +4,11 @@ import { storiesOf } from '@storybook/react-native'
 
 import Avatar from '.'
 
-const avartarUrl = 'https://mainlynorfolk.info/folk/images/largerec/songsofashropshirefarmworker_12t150.jpg'
-// const avartarUrl = 'http://lorempixel.com/200/200'
+const avatarUrl = 'https://mainlynorfolk.info/folk/images/largerec/songsofashropshirefarmworker_12t150.jpg'
 
 storiesOf('Avatar', module)
     .add('Default', () => (
-        <Avatar source={avartarUrl} />
+        <Avatar source={avatarUrl} />
     ))
     .add('Fit to container', () => (
         <View style={{width: 200, height: 200}}>
